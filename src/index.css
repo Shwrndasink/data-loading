@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+table {
+  border-spacing: 0;
+}
+table thead tr td {
+  padding: 10px 0;
+  font-weight: bold;
+}
+table tbody tr:nth-child(even) {
+  background: #ededed;
+}
